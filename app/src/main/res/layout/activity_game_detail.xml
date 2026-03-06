@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Header avec placeholder image -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#3B82F6"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Titre -->
+        <TextView
+            android:id="@+id/text_detail_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Legend of Zelda: Breath of the Wild"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Plateforme (badge) -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#E0E7FF"
+            android:paddingStart="12dp"
+            android:paddingTop="6dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="6dp"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:id="@+id/text_detail_platform"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nintendo Switch"
+                android:textSize="14sp"
+                android:textColor="#1E40AF"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!-- Infos en grille -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="32dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Genre"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+            <TextView
+                android:id="@+id/text_detail_genre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Action-Aventure"
+                android:textSize="16sp"
+                android:background="#F8FAFC"
+                android:padding="12dp"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Statut"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+            <TextView
+                android:id="@+id/text_detail_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terminé ✓"
+                android:textSize="16sp"
+                android:textColor="#10B981"
+                android:background="#F0FDF4"
+                android:padding="12dp"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Temps joué"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+            <TextView
+                android:id="@+id/text_detail_playtime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="120 heures"
+                android:textSize="16sp"
+                android:background="#F8FAFC"
+                android:padding="12dp"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Note personnelle"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+            <TextView
+                android:id="@+id/text_detail_note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9.5/10 ★"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#F59E0B"
+                android:background="#FEF3C7"
+                android:padding="12dp" />
+
+        </LinearLayout>
+
+        <!-- Boutons -->
+        <Button
+            android:id="@+id/button_delete_game"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="🗑️ Supprimer"
+            android:backgroundTint="#EF4444"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="← Retour"
+            android:backgroundTint="#6B7280" />
+
+    </LinearLayout>
+
+</ScrollView>

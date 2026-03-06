@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ajouter une console"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Nom -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nom *"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+        <EditText
+            android:id="@+id/edit_console_name"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="PlayStation 5"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Modèle -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modèle"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+        <EditText
+            android:id="@+id/edit_console_model"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Slim, 2021, etc."
+            android:layout_marginBottom="24dp" />
+
+        <!-- Fabricant -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fabricant"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+        <EditText
+            android:id="@+id/edit_console_manufacturer"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Sony, Nintendo, etc."
+            android:layout_marginBottom="24dp" />
+
+        <!-- État -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="État"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+        <EditText
+            android:id="@+id/edit_console_status"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Excellente, Bonne, À réparer"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Date acquisition -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date d'acquisition"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+        <EditText
+            android:id="@+id/edit_console_date"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Juin 2021"
+            android:layout_marginBottom="24dp" />
+
+        <!-- N° série -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="N° de série (optionnel)"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+        <EditText
+            android:id="@+id/edit_console_serial"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="ABC123XYZ"
+            android:inputType="text"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Boutons -->
+        <Button
+            android:id="@+id/button_save_console"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Enregistrer"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/button_cancel_console"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Annuler"
+            android:textColor="#6B7280"
+            android:backgroundTint="#E5E7EB" />
+
+    </LinearLayout>
+
+</ScrollView>

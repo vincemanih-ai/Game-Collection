@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ajouter un jeu"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Titre -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Titre *"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+        <EditText
+            android:id="@+id/edit_game_title"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="The Legend of Zelda Breath of the Wild"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Plateforme -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plateforme"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+        <EditText
+            android:id="@+id/edit_game_platform"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Nintendo Switch"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Genre -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Genre"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+        <EditText
+            android:id="@+id/edit_game_genre"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Action-Aventure"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Statut -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Statut"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+        <EditText
+            android:id="@+id/edit_game_status"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Terminé ✓"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Temps joué -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Temps joué"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+        <EditText
+            android:id="@+id/edit_game_playtime"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="120 heures"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Note -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Note"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+        <EditText
+            android:id="@+id/edit_game_note"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="9.5/10 ★"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Boutons -->
+        <Button
+            android:id="@+id/button_save_game"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Enregistrer"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Annuler"
+            android:textColor="#6B7280"
+            android:backgroundTint="#EBEDF2" />
+
+    </LinearLayout>
+
+</ScrollView>

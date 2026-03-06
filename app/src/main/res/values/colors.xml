@@ -1,0 +1,42 @@
+
+<resources>
+
+    <!-- Couleurs de base de l'app -->
+    <color name="md_blue_dark">#0C2756</color>      <!-- fond écran -->
+    <color name="md_blue">#163D87</color>           <!-- barres / cartes bleues -->
+    <color name="md_blue_light">#1F6FE5</color>     <!-- boutons principaux -->
+    <color name="md_orange">#FF8A34</color>         <!-- carte Mes Consoles -->
+    <color name="md_yellow">#FFC93A</color>         <!-- accents / étoiles -->
+    <color name="md_green">#32C470</color>          <!-- états OK -->
+    <color name="md_error">#FF5A3C</color>          <!-- erreurs -->
+
+    <!-- Texte et surfaces -->
+    <color name="md_surface_light">#F6F7FB</color>  <!-- cartes claires -->
+    <color name="md_text_primary">#FFFFFF</color>   <!-- texte sur fond sombre -->
+    <color name="md_text_dark">#1F2933</color>      <!-- texte sur fond clair -->
+
+    <!-- Palette Material utilisée par le thème -->
+    <color name="colorPrimary">@color/md_blue</color>
+    <color name="colorPrimaryVariant">@color/md_blue_dark</color>
+    <color name="colorOnPrimary">@color/md_text_primary</color>
+
+    <color name="colorSecondary">@color/md_orange</color>
+    <color name="colorSecondaryVariant">@color/md_orange</color>
+    <color name="colorOnSecondary">@color/md_text_primary</color>
+
+    <color name="colorBackground">@color/md_blue_dark</color>
+    <color name="colorOnBackground">@color/md_text_primary</color>
+
+    <color name="colorSurface">@color/md_surface_light</color>
+    <color name="colorOnSurface">@color/md_text_dark</color>
+
+    <color name="colorError">@color/md_error</color>
+    <color name="colorOnError">@color/md_text_primary</color>
+
+    <!-- Couleurs par plateforme -->
+    <color name="platform_switch">#E60012</color>
+    <color name="platform_ps">#003791</color>
+    <color name="platform_xbox">#107C10</color>
+    <color name="platform_default">@color/md_blue_light</color>
+
+</resources>

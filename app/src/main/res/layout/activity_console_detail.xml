@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Image console (placeholder) -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#059669"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Nom console -->
+        <TextView
+            android:id="@+id/text_console_detail_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PlayStation 5"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Badge modèle -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#D1FAE5"
+            android:paddingStart="16dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="8dp"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:id="@+id/text_console_detail_model"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Slim 2021"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#065F46" />
+
+        </LinearLayout>
+
+        <!-- Fabricant -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fabricant"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+        <TextView
+            android:id="@+id/text_console_detail_manufacturer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sony"
+            android:textSize="16sp"
+            android:background="#F8FAFC"
+            android:padding="16dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- État -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="État"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+        <TextView
+            android:id="@+id/text_console_detail_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Excellente ✓"
+            android:textSize="18sp"
+            android:textColor="#059669"
+            android:background="#F0FDF4"
+            android:padding="16dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Date acquisition -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date d'acquisition"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+        <TextView
+            android:id="@+id/text_console_detail_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Juin 2021"
+            android:textSize="16sp"
+            android:background="#F8FAFC"
+            android:padding="16dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- N° série -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="N° de série"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+        <TextView
+            android:id="@+id/text_console_detail_serial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ABC123XYZ456"
+            android:textSize="16sp"
+            android:fontFamily="monospace"
+            android:background="#F8FAFC"
+            android:padding="16dp"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Boutons -->
+        <Button
+            android:id="@+id/button_delete_console"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="🗑️ Supprimer cette console"
+            android:textSize="16sp"
+            android:backgroundTint="#EF4444"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/button_back_console"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="← Retour à la liste"
+            android:textSize="16sp"
+            android:backgroundTint="#6B7280"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</ScrollView>
